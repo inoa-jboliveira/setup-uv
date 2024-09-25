@@ -1,29 +1,29 @@
-name-template: "v$RESOLVED_VERSION 🌈"
+name-template: "v$RESOLVED_VERSION "
 tag-template: "v$RESOLVED_VERSION"
 categories:
-  - title: "🚨 Breaking changes"
+  - title: "Breaking changes"
     labels:
       - "breaking-change"
-  - title: "✨ New features"
+  - title: "New features"
     labels:
       - "new-feature"
-  - title: "🐛 Bug fixes"
+  - title: "Bug fixes"
     labels:
       - "bugfix"
-  - title: "🚀 Enhancements"
+  - title: "Enhancements"
     labels:
       - "enhancement"
       - "refactor"
       - "performance"
-  - title: "🧰 Maintenance"
+  - title: "Maintenance"
     labels:
       - "maintenance"
       - "ci"
       - "update-known-checksums"
-  - title: "📚 Documentation"
+  - title: "Documentation"
     labels:
       - "documentation"
-  - title: "⬆️ Dependency updates"
+  - title: "Dependency updates"
     labels:
       - "dependencies"
 change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
